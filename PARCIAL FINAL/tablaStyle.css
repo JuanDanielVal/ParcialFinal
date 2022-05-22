@@ -1,0 +1,65 @@
+
+@import url('http://fonts.cdnfonts.com/css/bahnschrift');
+
+:root{
+--titulo: 'Bahnschrift', sans-serif;
+}                                                      
+
+body{
+    background-color: gray;
+}
+
+.page{
+    border: 3px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(5, 5, 5);
+    margin: 5%;
+    padding: 10px 70px 40px 70px;
+    margin: 7% 10%;
+    background-color: rgba(255, 255, 255, 0.822) ;
+    overflow: hidden;
+    
+    
+}
+
+#cl{
+    width:50px;
+    padding: 10px;
+    
+}
+
+table {
+    width: 100%;
+    border: 2px solid rgb(202, 202, 202);
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+    font-family: sans-serif;
+    font-size: 16pt;
+    text-align: center;
+ }
+
+ table tbody tr:nth-child(even) {
+	background: rgb(202, 202, 202);
+}
+
+ td, tr{
+    border-left: 2px solid rgb(202, 202, 202);
+    border-bottom: 2px solid rgb(202, 202, 202);
+    width: 25%;
+ }
+
+h3{
+    font-family: var(--titulo);
+    text-align: center;
+    font-size: 200%;
+    margin: 10px;
+}
+
+h4{
+    font-family: var(--titulo);
+    text-align: center;   
+    font-size: 110%;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="STYLESHEET" type="text/css" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet">               
+    <title>Parcial Final</title>
+</head>
+<body>
+    <div class="page">
+        <div class="encabezado" align="center"><a title="Inicio" href="index.html">
+            <img src="img/task-regular-72.png" align="center"></a></div>
+        <h3>1. Incremento IVA</h3>
+        <hr>
+            <h4>Ingresa la siguiente información para conocer el precio con IVA.</h4>  
+        <section></section>
+            <div class="formulario">
+                <img src="img/cart-regular-72.png"><br><br>
+                <form>
+                    <label class="txt">Producto</label><br>
+                    <input type="text" id="producto" class="txtf"><br><br>
+                    <label class="txt" >Precio</label><br>
+                    <input type="text" id="precio" class="txtf"><br><br>
+                    <label class="txt">IVA</label><br>
+                    <input type="text" id="iva" class="txtf"><br><br>
+                    <button type="button" class="btn" onclick="calcular()">Calcular</button>
+                </form>
+            </div>
+
+        </section><br><hr>
+        <section>
+            <table class="tabla">
+              <thead>
+                <tr>
+                  <th scope="col">Producto</th>
+                  <th scope="col">Precio</th>
+                  <th scope="col">Iva</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody id="tbody">
+              </tbody>
+            </table>
+          </section>
+
+    </div>
+    
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
